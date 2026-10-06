@@ -1,11 +1,11 @@
-# 📊 Sales Data Analysis — Business Intelligence Report
+# Sales Data Analysis — Business Intelligence Report
 
 > **Dataset:** `Sales.csv` · 95,452 transactions · 1,235 unique SKUs · Jan 2023 – Jul 2024
 > **Stack:** Python · pandas · matplotlib · seaborn · RFM modelling
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 ├── sales_analysis.py          # Modular analysis pipeline
@@ -19,7 +19,7 @@
 
 ---
 
-## 📈 Key Performance Indicators
+## Key Performance Indicators
 
 | Metric | Value |
 |---|---|
@@ -32,7 +32,7 @@
 
 ---
 
-## 📅 Monthly Revenue Highlights
+## Monthly Revenue Highlights
 
 | Best Month | £58.8M (Dec 2023) |
 |---|---|
@@ -44,7 +44,7 @@
 
 ---
 
-## 🎯 RFM Segmentation Results
+## RFM Segmentation Results
 
 | Segment | SKUs | Revenue | Avg Days Since Last Sale |
 |---|---|---|---|
@@ -59,7 +59,7 @@
 
 ---
 
-## 📦 Product Assortment Analysis
+## Product Assortment Analysis
 
 ### Top 5 Bestsellers (by Revenue)
 | Rank | SKU | Revenue | Share |
@@ -81,21 +81,21 @@ SKUs with 350+ transactions and last sale within 30 days — prioritise for stoc
 
 ---
 
-## 🏆 Executive Summary — 3 Strategic Recommendations
+## Executive Summary — 3 Strategic Recommendations
 
-### 1. 🔴 Win Back "At Risk" SKUs Before They Go Dormant
+### 1. Win Back "At Risk" SKUs Before They Go Dormant
 **110 SKUs** with historically high frequency are now 200 days without a sale (£24.9M at risk).
 - Run targeted **reactivation campaigns** for buyers of these products
 - Offer volume-discount bundles or early-renewal incentives
 - Set automated alerts at day 60/90/120 of no sales activity
 
-### 2. 🟢 Scale VIP Champions — Protect the Revenue Core
+### 2. Scale VIP Champions — Protect the Revenue Core
 **377 SKUs drive 76.4% of revenue** and are actively selling (avg 2 days ago).
 - Ensure **100% stock availability** for all Champion-tier SKUs at all times
 - Negotiate **priority supply agreements** with manufacturers of these lines
 - Introduce a loyalty/rebate programme for buyers purchasing Champion products
 
-### 3. 🟡 Leverage Seasonality — Pre-Position Inventory for Peak Months
+### 3. Leverage Seasonality — Pre-Position Inventory for Peak Months
 Revenue spikes **3–5× in March, June, and December** — but the business appears caught under-stocked in Jan/Aug (post-spike drops of −91% and −69%).
 - Build **inventory buffers 6–8 weeks ahead** of historically high-demand months
 - Pre-book logistics capacity in Oct–Nov for December peak
@@ -103,7 +103,7 @@ Revenue spikes **3–5× in March, June, and December** — but the business app
 
 ---
 
-## 🛠️ Technical Notes
+## Technical Notes
 
 - **RFM model** uses quartile scoring (1–4) across Recency, Frequency, and Monetary dimensions
 - **Returns** (0.4% of transactions) are excluded from gross revenue but tracked separately
